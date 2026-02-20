@@ -80,9 +80,17 @@ We propose injecting explicit anatomical priors into the Vision Transformer via 
 
 ## 🛠️ Repository Structure
 
-```text
 REFERS-Evaluation/
-├── REFERS.ipynb        # Jupyter Notebook (Data Loading, Pre-Training, Fine tuning)
-├── results/            # Saved metrics, ROC curves, and Heatmaps
-├── requirements.txt    # Python dependencies
-└── README.md           # This file
+├── README.md                          
+├── LICENSE                            
+├── requirements.txt                   
+├── .gitignore                         
+│
+├── Part1-REFERS-Evaluation/          
+│   ├── REFERS.ipynb
+│   └── results/
+│
+└── Part2-Physio-REFERS/              
+    ├── README.md                     
+    ├── Physio_REFERS_Implementation.ipynb
+    └── results/                      
