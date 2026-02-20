@@ -1,0 +1,44 @@
+# Core
+python>=3.8
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+tqdm
+
+# Deep Learning
+torch>=1.10
+torchvision
+torchaudio
+
+# Vision
+opencv-python
+Pillow
+
+# Transformers & NLP
+transformers>=4.20
+tokenizers
+sentencepiece
+
+# Medical NLP (for future Physio-REFERS extension)
+spacy
+scispacy
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_sm-0.5.1.tar.gz
+
+# Graph Neural Networks (for Physio-REFERS)
+torch-geometric
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+
+# Utilities
+pyyaml
+einops
+tensorboard
+
+# Jupyter
+jupyterlab
+notebook
+ipykernel
