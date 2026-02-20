@@ -104,8 +104,7 @@ To validate the model's reliability (and avoid shortcut learning), we extracted 
 REFERS-Evaluation/
 ├── README.md                          
 ├── LICENSE                            
-├── requirements.txt                   
-├── .gitignore                         
+├── requirements.txt                                  
 │
 ├── Part1-REFERS-Evaluation/          
 │   ├── REFERS.ipynb
