@@ -30,7 +30,7 @@ We fine-tuned the pre-trained ViT-B/16 backbone on the Shenzhen TB dataset (bina
 ### 📈 ROC Curve & Performance
 The model achieves an Area Under Curve (AUC) of **0.93**, demonstrating that report-supervised features generalize exceptionally well to specific pathologies like Tuberculosis, even with limited fine-tuning data (~600 images).
 
-![ROC Curve](results/roc_curve.png)
+![ROC Curve](Part1-REFERS-Evaluation/results/roc_curve.png)
 
 ---
 
@@ -38,7 +38,7 @@ The model achieves an Area Under Curve (AUC) of **0.93**, demonstrating that rep
 
 To validate the model's reliability (and avoid shortcut learning), we extracted **Attention Maps** from the final Transformer block.
 
-![Heatmaps](results/heatmaps_sain_tb.jpg)
+![Heatmaps](Part1-REFERS-Evaluation/results/heatmaps_sain_tb.jpg)
 
 **Clinical Correlation:**
 * **Top Row (Normal):** The attention is diffuse across the lung field. No focal point.
