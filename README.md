@@ -77,6 +77,27 @@ We propose injecting explicit anatomical priors into the Vision Transformer via 
 | **Robustness** | Sensitive to noise/artifacts | **Robust** via anatomical constraints |
 
 ---
+## 📊 Experimental Results of PhysioREFERS:
+
+### 📈 ROC Curve & Performance
+The model achieves an Area Under Curve (AUC) of **0.93**, demonstrating that report-supervised features generalize exceptionally well to specific pathologies like Tuberculosis, even with limited fine-tuning data (~600 images).
+
+![ROC Curve](Part2-Physio-REFERS/results/ROC_curve&Confusion_Matrix.png)
+
+---
+
+## Explainability & Interpretability
+
+To validate the model's reliability (and avoid shortcut learning), we extracted **Attention Maps** from the final Transformer block.
+
+![Heatmaps](Part2-Physio-REFERS/results/visualise_physio_refers.png)
+
+**Clinical Correlation:**
+* **Top Row (Normal):** The attention is diffuse across the lung field. No focal point.
+* **Bottom Row (Tuberculosis):** The model explicitly attends to the **upper right lung opacity** (typical TB presentation), validating that the ViT has learned relevant biomarkers.
+
+---
+---
 
 ## 🛠️ Repository Structure
 ```
